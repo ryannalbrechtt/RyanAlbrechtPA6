@@ -13,6 +13,7 @@ namespace PA6
     public partial class frmMAIN : Form
     {
         string cwid;
+        List<Book> myBooks;
 
         public frmMAIN(string tempCwid)
         {
@@ -22,7 +23,13 @@ namespace PA6
 
         private void frmMAIN_Load(object sender, EventArgs e)
         {
+            LoadList();
+        }
 
+        private void LoadList()
+        {
+            myBooks = BookFile.GetAllBooks(cwid);
+            lstBooks.DataSource = myBooks;
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -33,6 +40,11 @@ namespace PA6
         private void btnClose_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

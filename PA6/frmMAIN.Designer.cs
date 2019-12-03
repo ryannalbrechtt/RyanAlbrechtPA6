@@ -65,7 +65,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(465, 170);
+            this.label2.Location = new System.Drawing.Point(391, 134);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(0, 48);
             this.label2.TabIndex = 1;
@@ -73,7 +73,7 @@
             // lblTitle
             // 
             this.lblTitle.AutoSize = true;
-            this.lblTitle.Location = new System.Drawing.Point(386, 58);
+            this.lblTitle.Location = new System.Drawing.Point(312, 9);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(101, 48);
             this.lblTitle.TabIndex = 2;
@@ -81,22 +81,22 @@
             // 
             // txtTitleData
             // 
-            this.txtTitleData.Location = new System.Drawing.Point(394, 128);
+            this.txtTitleData.Location = new System.Drawing.Point(307, 51);
             this.txtTitleData.Name = "txtTitleData";
-            this.txtTitleData.Size = new System.Drawing.Size(288, 55);
+            this.txtTitleData.Size = new System.Drawing.Size(223, 55);
             this.txtTitleData.TabIndex = 3;
             // 
             // txtAuthor
             // 
-            this.txtAuthor.Location = new System.Drawing.Point(394, 282);
+            this.txtAuthor.Location = new System.Drawing.Point(307, 160);
             this.txtAuthor.Name = "txtAuthor";
-            this.txtAuthor.Size = new System.Drawing.Size(288, 55);
+            this.txtAuthor.Size = new System.Drawing.Size(223, 55);
             this.txtAuthor.TabIndex = 5;
             // 
             // lblAuthor
             // 
             this.lblAuthor.AutoSize = true;
-            this.lblAuthor.Location = new System.Drawing.Point(386, 214);
+            this.lblAuthor.Location = new System.Drawing.Point(312, 109);
             this.lblAuthor.Name = "lblAuthor";
             this.lblAuthor.Size = new System.Drawing.Size(143, 48);
             this.lblAuthor.TabIndex = 4;
@@ -104,15 +104,15 @@
             // 
             // txtGenreData
             // 
-            this.txtGenreData.Location = new System.Drawing.Point(394, 435);
+            this.txtGenreData.Location = new System.Drawing.Point(307, 279);
             this.txtGenreData.Name = "txtGenreData";
-            this.txtGenreData.Size = new System.Drawing.Size(288, 55);
+            this.txtGenreData.Size = new System.Drawing.Size(223, 55);
             this.txtGenreData.TabIndex = 7;
             // 
             // lblGenre
             // 
             this.lblGenre.AutoSize = true;
-            this.lblGenre.Location = new System.Drawing.Point(386, 358);
+            this.lblGenre.Location = new System.Drawing.Point(312, 228);
             this.lblGenre.Name = "lblGenre";
             this.lblGenre.Size = new System.Drawing.Size(136, 48);
             this.lblGenre.TabIndex = 6;
@@ -121,15 +121,15 @@
             // 
             // txtLengthData
             // 
-            this.txtLengthData.Location = new System.Drawing.Point(394, 905);
+            this.txtLengthData.Location = new System.Drawing.Point(307, 636);
             this.txtLengthData.Name = "txtLengthData";
-            this.txtLengthData.Size = new System.Drawing.Size(288, 55);
+            this.txtLengthData.Size = new System.Drawing.Size(223, 55);
             this.txtLengthData.TabIndex = 14;
             // 
             // lblLength
             // 
             this.lblLength.AutoSize = true;
-            this.lblLength.Location = new System.Drawing.Point(386, 842);
+            this.lblLength.Location = new System.Drawing.Point(312, 585);
             this.lblLength.Name = "lblLength";
             this.lblLength.Size = new System.Drawing.Size(147, 48);
             this.lblLength.TabIndex = 13;
@@ -137,15 +137,15 @@
             // 
             // txtIsbnData
             // 
-            this.txtIsbnData.Location = new System.Drawing.Point(394, 741);
+            this.txtIsbnData.Location = new System.Drawing.Point(307, 509);
             this.txtIsbnData.Name = "txtIsbnData";
-            this.txtIsbnData.Size = new System.Drawing.Size(288, 55);
+            this.txtIsbnData.Size = new System.Drawing.Size(223, 55);
             this.txtIsbnData.TabIndex = 12;
             // 
             // lblIsbn
             // 
             this.lblIsbn.AutoSize = true;
-            this.lblIsbn.Location = new System.Drawing.Point(396, 690);
+            this.lblIsbn.Location = new System.Drawing.Point(312, 458);
             this.lblIsbn.Name = "lblIsbn";
             this.lblIsbn.Size = new System.Drawing.Size(118, 48);
             this.lblIsbn.TabIndex = 11;
@@ -153,15 +153,15 @@
             // 
             // txtCopiesData
             // 
-            this.txtCopiesData.Location = new System.Drawing.Point(394, 604);
+            this.txtCopiesData.Location = new System.Drawing.Point(307, 388);
             this.txtCopiesData.Name = "txtCopiesData";
-            this.txtCopiesData.Size = new System.Drawing.Size(288, 55);
+            this.txtCopiesData.Size = new System.Drawing.Size(223, 55);
             this.txtCopiesData.TabIndex = 10;
             // 
             // lblCopiesAvailable
             // 
             this.lblCopiesAvailable.AutoSize = true;
-            this.lblCopiesAvailable.Location = new System.Drawing.Point(386, 526);
+            this.lblCopiesAvailable.Location = new System.Drawing.Point(312, 337);
             this.lblCopiesAvailable.Name = "lblCopiesAvailable";
             this.lblCopiesAvailable.Size = new System.Drawing.Size(243, 48);
             this.lblCopiesAvailable.TabIndex = 9;
@@ -170,7 +170,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(465, 621);
+            this.label6.Location = new System.Drawing.Point(391, 585);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(0, 48);
             this.label6.TabIndex = 8;
@@ -179,40 +179,40 @@
             // 
             this.lstBooks.FormattingEnabled = true;
             this.lstBooks.ItemHeight = 48;
-            this.lstBooks.Location = new System.Drawing.Point(21, 83);
+            this.lstBooks.Location = new System.Drawing.Point(12, 51);
             this.lstBooks.Name = "lstBooks";
-            this.lstBooks.Size = new System.Drawing.Size(337, 772);
+            this.lstBooks.Size = new System.Drawing.Size(277, 532);
             this.lstBooks.TabIndex = 15;
             // 
             // pbCover
             // 
-            this.pbCover.Location = new System.Drawing.Point(784, 128);
+            this.pbCover.Location = new System.Drawing.Point(579, 83);
             this.pbCover.Name = "pbCover";
-            this.pbCover.Size = new System.Drawing.Size(508, 668);
+            this.pbCover.Size = new System.Drawing.Size(322, 402);
             this.pbCover.TabIndex = 16;
             this.pbCover.TabStop = false;
             // 
             // btnRent
             // 
-            this.btnRent.Location = new System.Drawing.Point(784, 944);
+            this.btnRent.Location = new System.Drawing.Point(563, 543);
             this.btnRent.Name = "btnRent";
-            this.btnRent.Size = new System.Drawing.Size(241, 102);
+            this.btnRent.Size = new System.Drawing.Size(171, 61);
             this.btnRent.TabIndex = 17;
             this.btnRent.Text = "Rent";
             this.btnRent.UseVisualStyleBackColor = true;
             // 
             // btnReturn
             // 
-            this.btnReturn.Location = new System.Drawing.Point(1051, 944);
+            this.btnReturn.Location = new System.Drawing.Point(758, 539);
             this.btnReturn.Name = "btnReturn";
-            this.btnReturn.Size = new System.Drawing.Size(241, 102);
+            this.btnReturn.Size = new System.Drawing.Size(164, 69);
             this.btnReturn.TabIndex = 18;
             this.btnReturn.Text = "Return";
             this.btnReturn.UseVisualStyleBackColor = true;
             // 
             // btnNew
             // 
-            this.btnNew.Location = new System.Drawing.Point(376, 1149);
+            this.btnNew.Location = new System.Drawing.Point(243, 712);
             this.btnNew.Name = "btnNew";
             this.btnNew.Size = new System.Drawing.Size(205, 84);
             this.btnNew.TabIndex = 19;
@@ -221,16 +221,17 @@
             // 
             // btnEdit
             // 
-            this.btnEdit.Location = new System.Drawing.Point(643, 1149);
+            this.btnEdit.Location = new System.Drawing.Point(465, 712);
             this.btnEdit.Name = "btnEdit";
             this.btnEdit.Size = new System.Drawing.Size(209, 84);
             this.btnEdit.TabIndex = 20;
             this.btnEdit.Text = "Edit";
             this.btnEdit.UseVisualStyleBackColor = true;
+            this.btnEdit.Click += new System.EventHandler(this.btnEdit_Click);
             // 
             // btnDelete
             // 
-            this.btnDelete.Location = new System.Drawing.Point(921, 1149);
+            this.btnDelete.Location = new System.Drawing.Point(692, 712);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(209, 84);
             this.btnDelete.TabIndex = 21;
@@ -239,7 +240,7 @@
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(1169, 1149);
+            this.btnClose.Location = new System.Drawing.Point(921, 712);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(209, 84);
             this.btnClose.TabIndex = 22;
@@ -251,7 +252,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(24F, 48F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1434, 1378);
+            this.ClientSize = new System.Drawing.Size(1141, 805);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnEdit);

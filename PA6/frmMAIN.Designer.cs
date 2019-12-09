@@ -59,7 +59,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 29);
+            this.label1.Size = new System.Drawing.Size(0, 24);
             this.label1.TabIndex = 0;
             // 
             // label2
@@ -67,7 +67,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(391, 134);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(0, 29);
+            this.label2.Size = new System.Drawing.Size(0, 24);
             this.label2.TabIndex = 1;
             // 
             // lblTitle
@@ -75,7 +75,7 @@
             this.lblTitle.AutoSize = true;
             this.lblTitle.Location = new System.Drawing.Point(312, 9);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(61, 29);
+            this.lblTitle.Size = new System.Drawing.Size(45, 24);
             this.lblTitle.TabIndex = 2;
             this.lblTitle.Text = "Title";
             // 
@@ -83,14 +83,14 @@
             // 
             this.txtTitleData.Location = new System.Drawing.Point(307, 51);
             this.txtTitleData.Name = "txtTitleData";
-            this.txtTitleData.Size = new System.Drawing.Size(223, 34);
+            this.txtTitleData.Size = new System.Drawing.Size(223, 29);
             this.txtTitleData.TabIndex = 3;
             // 
             // txtAuthor
             // 
             this.txtAuthor.Location = new System.Drawing.Point(307, 160);
             this.txtAuthor.Name = "txtAuthor";
-            this.txtAuthor.Size = new System.Drawing.Size(223, 34);
+            this.txtAuthor.Size = new System.Drawing.Size(223, 29);
             this.txtAuthor.TabIndex = 5;
             // 
             // lblAuthor
@@ -98,7 +98,7 @@
             this.lblAuthor.AutoSize = true;
             this.lblAuthor.Location = new System.Drawing.Point(312, 109);
             this.lblAuthor.Name = "lblAuthor";
-            this.lblAuthor.Size = new System.Drawing.Size(82, 29);
+            this.lblAuthor.Size = new System.Drawing.Size(66, 24);
             this.lblAuthor.TabIndex = 4;
             this.lblAuthor.Text = "Author";
             // 
@@ -106,7 +106,7 @@
             // 
             this.txtGenreData.Location = new System.Drawing.Point(307, 279);
             this.txtGenreData.Name = "txtGenreData";
-            this.txtGenreData.Size = new System.Drawing.Size(223, 34);
+            this.txtGenreData.Size = new System.Drawing.Size(223, 29);
             this.txtGenreData.TabIndex = 7;
             // 
             // lblGenre
@@ -114,7 +114,7 @@
             this.lblGenre.AutoSize = true;
             this.lblGenre.Location = new System.Drawing.Point(312, 228);
             this.lblGenre.Name = "lblGenre";
-            this.lblGenre.Size = new System.Drawing.Size(80, 29);
+            this.lblGenre.Size = new System.Drawing.Size(63, 24);
             this.lblGenre.TabIndex = 6;
             this.lblGenre.Text = "Genre";
             this.lblGenre.Click += new System.EventHandler(this.label3_Click);
@@ -123,7 +123,7 @@
             // 
             this.txtLengthData.Location = new System.Drawing.Point(307, 636);
             this.txtLengthData.Name = "txtLengthData";
-            this.txtLengthData.Size = new System.Drawing.Size(223, 34);
+            this.txtLengthData.Size = new System.Drawing.Size(223, 29);
             this.txtLengthData.TabIndex = 14;
             // 
             // lblLength
@@ -131,7 +131,7 @@
             this.lblLength.AutoSize = true;
             this.lblLength.Location = new System.Drawing.Point(312, 585);
             this.lblLength.Name = "lblLength";
-            this.lblLength.Size = new System.Drawing.Size(86, 29);
+            this.lblLength.Size = new System.Drawing.Size(68, 24);
             this.lblLength.TabIndex = 13;
             this.lblLength.Text = "Length";
             // 
@@ -139,7 +139,7 @@
             // 
             this.txtIsbnData.Location = new System.Drawing.Point(307, 509);
             this.txtIsbnData.Name = "txtIsbnData";
-            this.txtIsbnData.Size = new System.Drawing.Size(223, 34);
+            this.txtIsbnData.Size = new System.Drawing.Size(223, 29);
             this.txtIsbnData.TabIndex = 12;
             // 
             // lblIsbn
@@ -147,7 +147,7 @@
             this.lblIsbn.AutoSize = true;
             this.lblIsbn.Location = new System.Drawing.Point(312, 458);
             this.lblIsbn.Name = "lblIsbn";
-            this.lblIsbn.Size = new System.Drawing.Size(69, 29);
+            this.lblIsbn.Size = new System.Drawing.Size(52, 24);
             this.lblIsbn.TabIndex = 11;
             this.lblIsbn.Text = "ISBN";
             // 
@@ -155,7 +155,7 @@
             // 
             this.txtCopiesData.Location = new System.Drawing.Point(307, 388);
             this.txtCopiesData.Name = "txtCopiesData";
-            this.txtCopiesData.Size = new System.Drawing.Size(223, 34);
+            this.txtCopiesData.Size = new System.Drawing.Size(223, 29);
             this.txtCopiesData.TabIndex = 10;
             // 
             // lblCopiesAvailable
@@ -163,7 +163,7 @@
             this.lblCopiesAvailable.AutoSize = true;
             this.lblCopiesAvailable.Location = new System.Drawing.Point(312, 337);
             this.lblCopiesAvailable.Name = "lblCopiesAvailable";
-            this.lblCopiesAvailable.Size = new System.Drawing.Size(142, 29);
+            this.lblCopiesAvailable.Size = new System.Drawing.Size(111, 24);
             this.lblCopiesAvailable.TabIndex = 9;
             this.lblCopiesAvailable.Text = "Copies Avlb";
             // 
@@ -172,17 +172,18 @@
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(391, 585);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(0, 29);
+            this.label6.Size = new System.Drawing.Size(0, 24);
             this.label6.TabIndex = 8;
             // 
             // lstBooks
             // 
             this.lstBooks.FormattingEnabled = true;
-            this.lstBooks.ItemHeight = 29;
+            this.lstBooks.ItemHeight = 24;
             this.lstBooks.Location = new System.Drawing.Point(12, 51);
             this.lstBooks.Name = "lstBooks";
-            this.lstBooks.Size = new System.Drawing.Size(277, 526);
+            this.lstBooks.Size = new System.Drawing.Size(277, 508);
             this.lstBooks.TabIndex = 15;
+            this.lstBooks.SelectedIndexChanged += new System.EventHandler(this.lstBooks_SelectedIndexChanged);
             // 
             // pbCover
             // 
@@ -254,9 +255,9 @@
             // 
             // frmMAIN
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1199, 824);
+            this.ClientSize = new System.Drawing.Size(1028, 749);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnEdit);

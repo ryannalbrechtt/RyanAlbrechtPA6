@@ -39,7 +39,7 @@
             this.lblCWID.AutoSize = true;
             this.lblCWID.Location = new System.Drawing.Point(52, 55);
             this.lblCWID.Name = "lblCWID";
-            this.lblCWID.Size = new System.Drawing.Size(335, 48);
+            this.lblCWID.Size = new System.Drawing.Size(150, 24);
             this.lblCWID.TabIndex = 0;
             this.lblCWID.Text = "Enter your CWID";
             this.lblCWID.Click += new System.EventHandler(this.lblCWID_Click);
@@ -48,7 +48,7 @@
             // 
             this.txtCWID.Location = new System.Drawing.Point(477, 48);
             this.txtCWID.Name = "txtCWID";
-            this.txtCWID.Size = new System.Drawing.Size(520, 55);
+            this.txtCWID.Size = new System.Drawing.Size(520, 29);
             this.txtCWID.TabIndex = 1;
             // 
             // btnOK
@@ -73,17 +73,18 @@
             // 
             // frmCWID
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(24F, 48F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1107, 454);
+            this.ClientSize = new System.Drawing.Size(1028, 454);
             this.Controls.Add(this.btnCLOSE);
             this.Controls.Add(this.btnOK);
             this.Controls.Add(this.txtCWID);
             this.Controls.Add(this.lblCWID);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "frmCWID";
             this.Text = "CWID";
+            this.Load += new System.EventHandler(this.frmCWID_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

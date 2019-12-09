@@ -40,5 +40,10 @@ namespace PA6
                 this.Close();
             }
         }
+
+        private void frmCWID_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

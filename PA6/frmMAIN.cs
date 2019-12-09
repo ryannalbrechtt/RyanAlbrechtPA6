@@ -100,5 +100,10 @@ namespace PA6
                 LoadList();
             }
         }
+
+        private void lstBooks_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

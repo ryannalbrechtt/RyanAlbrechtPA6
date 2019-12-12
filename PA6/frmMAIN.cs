@@ -19,6 +19,7 @@ namespace PA6
         {
             this.cwid = tempCwid;
             InitializeComponent();
+            pbCover.SizeMode = PictureBoxSizeMode.StretchImage;
         }
 
         private void frmMAIN_Load(object sender, EventArgs e)
@@ -103,7 +104,24 @@ namespace PA6
 
         private void lstBooks_SelectedIndexChanged(object sender, EventArgs e)
         {
+            Book myBook = (Book)lstBooks.SelectedItem;
 
+            txtTitleData.Text = myBook.title;
+            txtAuthorData.Text = myBook.author;
+            txtGenreData.Text = myBook.genre;
+            txtIsbnData.Text = myBook.isbn;
+            txtCopiesData.Text = myBook.copies.ToString();
+            txtLengthData.Text = myBook.length.ToString();
+
+            try
+            {
+                pbCover.Load(myBook.cover);
+            }
+
+            catch
+            {
+
+            }
         }
     }
 }

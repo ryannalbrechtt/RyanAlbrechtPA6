@@ -32,7 +32,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.lblTitle = new System.Windows.Forms.Label();
             this.txtTitleData = new System.Windows.Forms.TextBox();
-            this.txtAuthor = new System.Windows.Forms.TextBox();
+            this.txtAuthorData = new System.Windows.Forms.TextBox();
             this.lblAuthor = new System.Windows.Forms.Label();
             this.txtGenreData = new System.Windows.Forms.TextBox();
             this.lblGenre = new System.Windows.Forms.Label();
@@ -86,12 +86,12 @@
             this.txtTitleData.Size = new System.Drawing.Size(223, 29);
             this.txtTitleData.TabIndex = 3;
             // 
-            // txtAuthor
+            // txtAuthorData
             // 
-            this.txtAuthor.Location = new System.Drawing.Point(307, 160);
-            this.txtAuthor.Name = "txtAuthor";
-            this.txtAuthor.Size = new System.Drawing.Size(223, 29);
-            this.txtAuthor.TabIndex = 5;
+            this.txtAuthorData.Location = new System.Drawing.Point(307, 160);
+            this.txtAuthorData.Name = "txtAuthorData";
+            this.txtAuthorData.Size = new System.Drawing.Size(223, 29);
+            this.txtAuthorData.TabIndex = 5;
             // 
             // lblAuthor
             // 
@@ -205,9 +205,9 @@
             // 
             // btnReturn
             // 
-            this.btnReturn.Location = new System.Drawing.Point(758, 539);
+            this.btnReturn.Location = new System.Drawing.Point(758, 543);
             this.btnReturn.Name = "btnReturn";
-            this.btnReturn.Size = new System.Drawing.Size(164, 69);
+            this.btnReturn.Size = new System.Drawing.Size(164, 61);
             this.btnReturn.TabIndex = 18;
             this.btnReturn.Text = "Return";
             this.btnReturn.UseVisualStyleBackColor = true;
@@ -275,7 +275,7 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtGenreData);
             this.Controls.Add(this.lblGenre);
-            this.Controls.Add(this.txtAuthor);
+            this.Controls.Add(this.txtAuthorData);
             this.Controls.Add(this.lblAuthor);
             this.Controls.Add(this.txtTitleData);
             this.Controls.Add(this.lblTitle);
@@ -298,7 +298,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label lblTitle;
         private System.Windows.Forms.TextBox txtTitleData;
-        private System.Windows.Forms.TextBox txtAuthor;
+        private System.Windows.Forms.TextBox txtAuthorData;
         private System.Windows.Forms.Label lblAuthor;
         private System.Windows.Forms.TextBox txtGenreData;
         private System.Windows.Forms.Label lblGenre;
